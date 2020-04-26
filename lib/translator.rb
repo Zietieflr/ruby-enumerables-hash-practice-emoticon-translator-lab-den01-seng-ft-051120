@@ -34,6 +34,9 @@ def get_english_meaning (path, emoticon)
   library = load_library(path);
   library.map { |emotion|
     if emotion[1][:japanese] == emoticon
-      
+      return emotion[0];
+    end
+  }
+  return "Sorry, that emoticon was not found"
 end
 
