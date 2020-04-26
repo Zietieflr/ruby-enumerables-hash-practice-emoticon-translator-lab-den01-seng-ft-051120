@@ -23,7 +23,7 @@ def get_japanese_emoticon(path, emoticon)
       return emotion[1][:japanese];
     end
   }
-  
+  return "Sorry, that emoticon was not found"
 end
 
 get_japanese_emoticon("lib/emoticons.yml", ":D")
