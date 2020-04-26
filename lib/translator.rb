@@ -20,7 +20,7 @@ def get_japanese_emoticon(path, emoticon)
   library = load_library(path);
   library.map { |emotion| 
     if emotion[1][:english] == emoticon
-      return emotion[:japanese];
+      return emotion[1][:japanese];
     end
   }
   
