@@ -28,6 +28,7 @@ end
 
 get_japanese_emoticon("lib/emoticons.yml", ":D")
 
-def get_english_meaning
+def get_english_meaning (path, emoticon)
   # code goes here
+  
 end
