@@ -33,5 +33,7 @@ def get_english_meaning (path, emoticon)
   library = {};
   library = load_library(path);
   library.map { |emotion|
-    
+    if emotion[1][:japanese] == emoticon
+      
 end
+
